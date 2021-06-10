@@ -12,4 +12,5 @@ const detailReducer = (state = initialState, action) => {
       return { ...state };
   }
 };
+
 export default detailReducer;

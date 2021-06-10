@@ -27,6 +27,8 @@ const StyledGames = styled(motion.div)`
   img {
     width: 100%;
     height: 30vh;
+    padding: 1.5rem;
+    border-radius: 2rem;
     object-fit: cover;
   }
 `;
