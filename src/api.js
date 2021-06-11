@@ -35,3 +35,5 @@ export const gameDetailsURL = (game_id) =>
   `${base_url}games/${game_id}?key=${process.env.REACT_APP_IGNITE_API}`;
 export const gameScreenShotURL = (game_id) =>
   `${base_url}games/${game_id}/screenshots?key=${process.env.REACT_APP_IGNITE_API}`;
+export const searchGameURL = (game_name) =>
+  `${base_url}games?search=${game_name}&key=${process.env.REACT_APP_IGNITE_API}&page_size=9`;
